@@ -328,7 +328,7 @@ NOTIFY_NEW_PLAYER_ACCOUNT_AGE 1
 #PANIC_SERVER_NAME [Put the name here]
 
 ## Uncomment to have the changelog file automatically open when a user connects and hasn't seen the latest changelog
-AGGRESSIVE_CHANGELOG
+#AGGRESSIVE_CHANGELOG
 
 ## Comment this out if you've used the mass conversion sql proc for notes or want to stop converting notes
 AUTOCONVERT_NOTES
@@ -443,4 +443,4 @@ DISABLE_HIGH_POP_MC_MODE_AMOUNT 60
 ##	By default, this is 15x15, which gets simplified to 7 by BYOND, as it is a 1:1 screen ratio.
 ##	For reference, Goonstation uses a resolution of 21x15 for it's widescreen mode.
 ##	Do note that changing this value will affect the title screen. The title screen will have to be updated manually if this is changed.
-DEFAULT_VIEW 21x15
+DEFAULT_VIEW 15x15
