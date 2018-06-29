@@ -71,6 +71,7 @@ window "mainwindow"
 		left = "mapwindow"
 		right = "infowindow"
 		is-vert = true
+		splitter = 75
 	elem "input"
 		type = INPUT
 		pos = 3,420
@@ -272,7 +273,6 @@ window "outputwindow"
 		size = 327x472
 		anchor1 = none
 		anchor2 = none
-		background-color = none
 		saved-params = "pos;size;is-minimized;is-maximized"
 		titlebar = false
 		statusbar = false
